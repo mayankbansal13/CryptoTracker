@@ -28,7 +28,6 @@ matplotlib
 
 🚀 Getting Started
 1. Clone the repository
-bashgit clone https://github.com/your-username/crypto-tracker.git
 cd crypto-tracker
 2. Install dependencies
 bashpip install -r requirements.txt
