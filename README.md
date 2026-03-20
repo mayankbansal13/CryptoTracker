@@ -27,6 +27,7 @@ matplotlib
 
 
 🚀 Getting Started
+
 1. Clone the repository
 cd crypto-tracker
 2. Install dependencies
@@ -40,21 +41,25 @@ The chart will open and update every 30 seconds automatically.
 Press Ctrl+C to stop.
 
 ⚙️ Configuration
+
 You can tweak these constants at the top of crypto_tracker.py:
 ConstantDefaultDescriptionPOLL_INTERVAL30Seconds between price updatesCOINGECKO_API_URLCoinGecko v3Base API URL
 
 🪙 Supported Cryptocurrencies
+
 Any coin listed on CoinGecko works. Use the coin's ID (not ticker symbol):
 CoinID to enterBitcoinbitcoinEthereumethereumSolanasolanaDogecoindogecoinCardanocardano
 To find any coin's ID, search on coingecko.com and check the URL:
 https://www.coingecko.com/en/coins/bitcoin
 
 📡 API Reference
+
 This project uses the CoinGecko Public API v3 (no key needed):
 EndpointUsed for/simple/priceCurrent price + 24h change/coins/{id}/market_chartHistorical price data
 Rate limit on the free tier: ~10–30 requests/min. The 30-second poll interval stays well within this.
 
 🛠️ Troubleshooting
+
 ValueError: Cryptocurrency 'xxx' not found
 → Make sure you're using the CoinGecko coin ID (e.g. bitcoin), not the ticker (BTC).
 429 Too Many Requests
