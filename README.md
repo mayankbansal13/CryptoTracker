@@ -1,4 +1,5 @@
 📈 CryptoTracker
+
 A real-time cryptocurrency price tracker built with Python. Fetches live prices from the CoinGecko API and plots an auto-updating chart with historical data.
 
 ✨ Features
