@@ -13,7 +13,7 @@ A real-time cryptocurrency price tracker built with Python. Fetches live prices 
 
 
 🖥️ Demo
-Enter cryptocurrency (e.g. bitcoin, ethereum): bitcoin
+Enter cryptocurrency (e.g. bitcoin, ethereum): bitcoin 
 Days of history to preload (e.g. 1, 7, 30): 7
 
 [14:32:01] bitcoin: $67,432.10  (+2.35%)
